@@ -10,3 +10,7 @@ and here, I have:
 •	Containerized the Lambda functions utilizing netCDF4 library to parse domain-specific netCDF files and Pandas to extract, structure, and save daily time-series data to Parquet format on S3, ensuring any level of complex dependencies or heavy customizations can be configured into Lambda runtime
 
 •	Leveraged AWS Glue to consolidate the 365 files from Lambda, and re-partition the dataset from daily key to a geographical point ID key, generating 100 time-series datasets, for each point
+
+More details on the project here:
+
+https://www.linkedin.com/posts/rushikesh-palnitkar_aws-awsblogs-s3-activity-7382944275350757376-8wX6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFLe9UBk8g_DOUq_bKIxryPsi0PZfsMV4Q
